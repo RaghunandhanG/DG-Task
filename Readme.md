@@ -65,14 +65,7 @@ The data follows a star schema with these key relationships:
 
 ## 💾 Database Integration
 
-The project includes MySQL database setup with automatic table creation:
-
-```python
-# Database connection example from demo.ipynb
-engine = create_engine("mysql+pymysql://root:password@localhost:3306/dg_task")
-```
-
-All CSV files are automatically imported as database tables for efficient querying.
+The project includes MySQL database setup with automatic table creation. All CSV files are automatically imported as database tables for efficient querying.
 
 ## 📋 Data Schema
 
